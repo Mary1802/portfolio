@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    background-image: url(/images/pinkwhite.png);
+    background-size: cover;
+    margin-top: 2%;
+}
+header{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: rgb(243, 200, 207);
+}
+header img{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    margin-top: 5%;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    font: caption;
+    font-weight: bold;
+    transition: 0.5s;
+
+}
+header a:hover{
+    font-size: large;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: black;
+    padding: 10px;
+    color: pink;
+}
+
+.presentation1{
+    display: flex;
+}
+.name{
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.name h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    margin-right: 100px;
+}
+.image1 img{
+    height: 400px;
+    width: 400px;
+    margin-top: 5%;
+    border-radius: 50%;
+    margin-left: 2%;
+}
+.presentation2{
+    display: flex;
+    margin-top: 5%;
+    gap: 100px;
+    background-color: pink;
+}
+.image2{
+    background-color: rgb(240, 138, 172);
+    padding: 20px;
+    padding-right: 30px;
+}
+.image2 img{
+    height: 400px;
+    width: 400px;
+    margin-left: 2%;
+}
+.texte1{
+    background-color: pink;
+    padding-top: 50px;
+}
+.texte1 p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.texte1 h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
